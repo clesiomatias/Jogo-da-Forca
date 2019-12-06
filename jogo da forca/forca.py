@@ -40,6 +40,7 @@ def cria_janela():
 	#desenhando janela
 	janela = turtle.Screen()
 	janela.setup(800,600)
+	janela.title('Jogo da Forca')
 	janela.bgcolor('green')
 	
 	#desenhando a forca
